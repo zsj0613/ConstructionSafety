@@ -1,8 +1,8 @@
 ﻿<Window x:Class="ConstructionSafety.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Width="{StaticResource Width1024}" Height="{StaticResource Height768}" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Width="{StaticResource Width1024}" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Height="{StaticResource Height800}">
     <Grid Width="{StaticResource Width1024}" Height="{StaticResource Height768}">
-        <Frame Height="{StaticResource Height768}" HorizontalAlignment="Left" Margin="0" Name="frame1" VerticalAlignment="Top" Width="{StaticResource Width1024}" />
+        <Frame Height="{StaticResource Height768}" HorizontalAlignment="Left" Margin="0" Name="frame_main" VerticalAlignment="Top" Width="{StaticResource Width1024}" />
     </Grid>
 </Window>

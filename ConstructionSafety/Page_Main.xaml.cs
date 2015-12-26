@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace ConstructionSafety
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// Page_Main.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page_Main : Page
     {
-        public MainWindow()
+        public Page_Main()
         {
             InitializeComponent();
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            frame_main.Source = new Uri("Page_Main.xaml",UriKind.RelativeOrAbsolute);
         }
     }
 }

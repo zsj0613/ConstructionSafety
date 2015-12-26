@@ -5,5 +5,6 @@
     <Application.Resources>
     <my:Double x:Key="Width1024">1024</my:Double>
     <my:Double x:Key="Height768">768</my:Double>
+    <my:Double x:Key="Height800">800</my:Double>
   </Application.Resources>
 </Application>
