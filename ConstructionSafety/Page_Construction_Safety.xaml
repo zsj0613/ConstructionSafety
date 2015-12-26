@@ -9,5 +9,6 @@
 
     <Grid>
         <Button Content="这是施工安全模块，点击返回主页面" Height="85" HorizontalAlignment="Left" Margin="334,279,0,0" Name="button_Construction_Safety_BackHome" VerticalAlignment="Top" Width="379" FontSize="22" Click="button_Construction_Safety_BackHome_Click" Cursor="Hand" />
+        <TextBlock Height="37" HorizontalAlignment="Left" Margin="334,143,0,0" Name="textBlock_openDoc" Text="灌河大桥工程项目安全生产管理用表（2012年8月8日）" VerticalAlignment="Top" Width="405" FontSize="16" TextWrapping="Wrap" MouseEnter="textBlock_openDoc_MouseEnter" MouseLeave="textBlock_openDoc_MouseLeave" Cursor="Hand" FontStyle="Italic" MouseLeftButtonDown="textBlock_openDoc_MouseLeftButtonDown" Padding="5" ToolTip="点击打开word文件" />
     </Grid>
 </Page>
