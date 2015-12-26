@@ -1,0 +1,9 @@
+﻿<Application x:Class="ConstructionSafety.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml" xmlns:my="clr-namespace:System;assembly=mscorlib">
+    <Application.Resources>
+    <my:Double x:Key="Width1024">1024</my:Double>
+    <my:Double x:Key="Height768">768</my:Double>
+  </Application.Resources>
+</Application>
