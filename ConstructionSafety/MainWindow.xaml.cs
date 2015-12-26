@@ -28,5 +28,20 @@ namespace ConstructionSafety
         {
             frame_main.Source = new Uri("Page_Main.xaml",UriKind.RelativeOrAbsolute);
         }
+
+
+        public static void setTextColorBlack(Object sender)
+        {
+            TextBlock textBlock = (TextBlock)sender;
+            textBlock.Foreground = Brushes.Black;
+            return;
+        }
+
+        public static void setTextColorBlue(Object sender)
+        {
+            TextBlock textBlock = (TextBlock)sender;
+            textBlock.Foreground = Brushes.Blue;
+            return;
+        }
     }
 }

@@ -23,5 +23,15 @@ namespace ConstructionSafety
         {
             InitializeComponent();
         }
+
+        private void text_construct_safety_MouseEnter(object sender, MouseEventArgs e)
+        {
+            MainWindow.setTextColorBlue(sender);
+        }
+
+        private void text_construct_safety_MouseLeave(object sender, MouseEventArgs e)
+        {
+            MainWindow.setTextColorBlack(sender);
+        }
     }
 }

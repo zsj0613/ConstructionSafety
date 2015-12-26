@@ -10,6 +10,7 @@
         <ImageBrush ImageSource="/ConstructionSafety;component/Images/Main.png" />
     </Page.Background>
     <Grid>
-        
+        <TextBlock TextWrapping="Wrap" Text="施 工 安全模块
+                   " Margin="461,463,452,0" Height="72" VerticalAlignment="Top" FontSize="28" TextAlignment="Left" Cursor="Hand" Name="text_construct_safety" MouseEnter="text_construct_safety_MouseEnter" MouseLeave="text_construct_safety_MouseLeave" />
     </Grid>
 </Page>
