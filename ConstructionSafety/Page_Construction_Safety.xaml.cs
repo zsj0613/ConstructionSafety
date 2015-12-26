@@ -15,39 +15,29 @@ using System.Windows.Shapes;
 namespace ConstructionSafety
 {
     /// <summary>
-    /// Page_Main.xaml 的交互逻辑
+    /// Page_Construction_Safety.xaml 的交互逻辑
     /// </summary>
-    public partial class Page_Main : Page
+    public partial class Page_Construction_Safety : Page
     {
-        public Page_Main()
+        public Page_Construction_Safety()
         {
             InitializeComponent();
         }
 
-        private void text_construct_safety_MouseEnter(object sender, MouseEventArgs e)
-        {
-            MainWindow.setTextColorBlue(sender);
-        }
-
-        private void text_construct_safety_MouseLeave(object sender, MouseEventArgs e)
-        {
-            MainWindow.setTextColorBlack(sender);
-        }
-
-        private void text_construct_safety_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void button_Construction_Safety_BackHome_Click(object sender, RoutedEventArgs e)
         {
             Frame pageFrame = null;
             DependencyObject currentParent = VisualTreeHelper.GetParent(this);
 
-            while (currentParent != null && pageFrame == null)
+            while(currentParent != null && pageFrame == null)
             {
                 pageFrame = currentParent as Frame;
                 currentParent = VisualTreeHelper.GetParent(currentParent);
             }
 
-            if (pageFrame != null)
+            if(pageFrame != null)
             {
-                pageFrame.Source = new Uri("Page_Construction_Safety.xaml", UriKind.RelativeOrAbsolute);
+                pageFrame.Source = new Uri("Page_Main.xaml",UriKind.RelativeOrAbsolute);
             }
         }
     }
